@@ -5,7 +5,7 @@ Workflow CSS da Softers
 
 ### Plugins do Sublime
 
-* Editorconfig
+* [Editorconfig](http://editorconfig.org)
 * Sass sintax highlighter
 
 ### Servidor
@@ -32,24 +32,24 @@ sudo npm i gulp -g
 
 ### Ferramentas utilizadas
 
-* **Node + NPM**:
+* **[NodeJS](http://nodejs.com) + [NPM](http://npmjs.org)**:
 NodeJS é uma plataforma (não uma linguagem) para desenvolvimento Javascript server-side. NPM é o gerenciador de pacotes Node (como Composer/ PHP, Gem/ Ruby).
 
-* **Gulp**:
+* **[Gulp](http://gulpjs.com)**:
 Automatizador de tarefas, executa tarefas definidas no gulpfile.js, como minificação e concatenação de arquivos, tarefas que se feitas de maneira manual, custam muito tempo ao desenvolvedor.
 
-* **SASS + Compass**:
+* **[SASS](http://sass-lang.com) + Compass**:
 Pré-processador de CSS, permite que defina variáveis, snippets (mixins) e desenvolva CSS modular. Compass permite que desenvolva Sass com uma sintaxe similar ao CSS nativo, como {}, e não apenas baseado em indentação.
 
 * **Módulos do Node**:
 
-    * **gulp-sass**: Módulo para pré-processamento de Sass, compila Sass para CSS.
+    * **[gulp-sass](https://www.npmjs.com/package/gulp-sass)**: Módulo para pré-processamento de Sass, compila Sass para CSS.
 
-    * **gulp-cssp**: Módulo para minificação de CSS.
+    * **[gulp-cssp](https://www.npmjs.com/package/gulp-cssp)**: Módulo para minificação de CSS.
 
-    * **gulp-autoprefixer**: Módulo helper de prefixação automática de propriedades (e valores) no CSS. Procura ocorrências de propriedades que necessitem prefixo (de acordo com lista de browser especificada) e faz de forma automatizada.
+    * **[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)**: Módulo helper de prefixação automática de propriedades (e valores) no CSS. Procura ocorrências de propriedades que necessitem prefixo (de acordo com lista de browser especificada) e faz de forma automatizada.
 
-    * **gulp-csscomb**: Ordena CSS de acordo com lista especificada (./csscomb.json): em servidores com gzip, folhas de estilo com propriedades organizadas em ordem alfabética tem melhor performance de carregamento [goo.gl/roiEs8](goo.gl/roiEs8).
+    * **[gulp-csscomb](https://www.npmjs.com/package/gulp-csscomb)**: Ordena CSS de acordo com lista especificada (./csscomb.json): em servidores com gzip, folhas de estilo com propriedades organizadas em ordem alfabética tem melhor performance de carregamento [goo.gl/roiEs8](goo.gl/roiEs8).
 
 ### Estruturação do diretório dos estilos (public/assets/css)
 
