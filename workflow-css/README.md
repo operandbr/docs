@@ -49,7 +49,7 @@ Pré-processador de CSS, permite que defina variáveis, snippets (mixins) e dese
 
     * **[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)**: Módulo helper de prefixação automática de propriedades (e valores) no CSS. Procura ocorrências de propriedades que necessitem prefixo (de acordo com lista de browser especificada) e faz de forma automatizada.
 
-    * **[gulp-csscomb](https://www.npmjs.com/package/gulp-csscomb)**: Ordena CSS de acordo com lista especificada (./csscomb.json): em servidores com gzip, folhas de estilo com propriedades organizadas em ordem alfabética tem melhor performance de carregamento [goo.gl/roiEs8](goo.gl/roiEs8).
+    * **[gulp-csscomb](https://www.npmjs.com/package/gulp-csscomb)**: Ordena CSS de acordo com lista especificada (./csscomb.json): em servidores com gzip, folhas de estilo com propriedades organizadas em ordem alfabética [tem melhor performance de carregamento](http://goo.gl/roiEs8).
 
 ### Estruturação do diretório dos estilos (public/assets/css)
 
