@@ -82,7 +82,7 @@ src
 
 * *src*: diretório dos arquivos Sass separados pelo componente/ módulo
 
-    * *module/ module-2*: diretório dos módulos/ componentes
+    * *module, module-2...*: diretório dos módulos/ componentes
 
         * separação dos arquivos do componente, utilizar a estrutura necessária para o componente.
             * **.scss*: arquivos Sass modulares do componente
@@ -139,7 +139,7 @@ A tarefa padrão do Gulp, que realizará:
     * Safari (>= 5);
     * Chrome (>= 35);
 * Ordenação das propriedades em ordem alfabética (lembra da otimização para gzip?).
-* E por fim a minifacação do arquivo final.
+* E por fim a minificação do arquivo final.
 
 Para utilização desta feature:
 ```js
@@ -157,7 +157,7 @@ Main.gulp.task('NOME_MODULO-css', function () {
 ```
 Caso esta tarefa não realize a ação que deseja, você pode criar a sua baseando-se nela. ~vai na fé irmão~.
 
-Adicione esta tarefa à tarefa principal do módulo e atarefa de watch.
+Adicione esta tarefa à tarefa principal do módulo e a tarefa de watch.
 ```js
 /**
  * All module tasks.
