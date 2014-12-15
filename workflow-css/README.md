@@ -112,7 +112,7 @@ gulpfile.js
 
 No diretório *.tasks*, crie um arquivo Javascript com o nome de seu módulo (ex: widgets.js), em seu conteúdo utilize [esta estrutura](http://goo.gl/7cc6NE).
 
-> **Atenção:** este arquivo contém também tarefas de build de arquivos Javascript, caso seu módulo componente não utilize assets JS, pode tirar tais tarefas ;). Sem medo... eu garanto... sério!
+> **Atenção:** este arquivo contém também tarefas de build de arquivos Javascript, caso seu módulo/componente não utilize assets JS, pode tirar tais tarefas ;). Sem medo... eu garanto... sério!
 
 > **Code styles:** as tarefas deverão ter nomes como: NOME_MODULO-css, NOME_MODULE-watch.
 
@@ -130,7 +130,7 @@ var scssMain = [CSS.PATH + 'src/module/main.scss'];
  */
 var cssWatch = CSS.watch.concat([CSS.PATH + 'src/module/*.scss']);
 ```
-Para criar a tarefa para compilar o estilos de seu módulo, há duas opções:
+Para criar a tarefa para compilar os estilos de seu módulo, há duas opções:
 
 A tarefa padrão do Gulp, que realizará:
 * Compilação do Sass para CSS.
@@ -138,7 +138,7 @@ A tarefa padrão do Gulp, que realizará:
     * Firefox (>= 30);
     * Safari (>= 5);
     * Chrome (>= 35);
-* Ordenação das propriedades em ordem alfabética (lembra da otimização para gzip?).
+* Ordenação das propriedades em ordem alfabética (lembra da [otimização](http://goo.gl/roiEs8) para gzip?).
 * E por fim a minificação do arquivo final.
 
 Para utilização desta feature:
