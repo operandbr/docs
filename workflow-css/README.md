@@ -87,7 +87,7 @@ src
         * separação dos arquivos do componente, utilizar a estrutura necessária para o componente.
             * **.scss*: arquivos Sass modulares do componente
 
-        * *main.scss*: principal arquivo do componente, importará as demais partials, mixins e variáveis.
+        * *main.scss*: principal arquivo do componente, importará os demais arquivos *.scss* do módulo/componente, mixins e variáveis.
 
 ### Estruturação do diretório das tarefas do Gulp
 
@@ -119,7 +119,7 @@ No diretório *.tasks*, crie um arquivo Javascript com o nome de seu módulo (ex
 A estrutura padrão nos oferece duas varíaveis para setar arquivos Sass.
 ```js
 /**
- * Arquivo principal do módulo, ele será compilado.
+ * Arquivo principal do módulo que será compilado.
  */
 var scssMain = [CSS.PATH + 'src/module/main.scss'];
 
