@@ -45,7 +45,7 @@ Pré-processador de CSS, permite que defina variáveis, snippets (mixins) e dese
 
     * **[gulp-sass](https://www.npmjs.com/package/gulp-sass)**: Módulo para pré-processamento de Sass, compila Sass para CSS.
 
-    * **[gulp-cssp](https://www.npmjs.com/package/gulp-cssp)**: Módulo para minificação de CSS.
+    * **[gulp-csso](https://www.npmjs.com/package/gulp-csso)**: Módulo para minificação de CSS.
 
     * **[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)**: Módulo helper de prefixação automática de propriedades (e valores) no CSS. Procura ocorrências de propriedades que necessitem prefixo (de acordo com lista de browser especificada) e faz de forma automatizada.
 
