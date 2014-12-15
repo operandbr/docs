@@ -33,7 +33,7 @@ sudo npm i gulp -g
 ### Ferramentas utilizadas
 
 * **[NodeJS](http://nodejs.com) + [NPM](http://npmjs.org)**:
-NodeJS é uma plataforma (não uma linguagem) para desenvolvimento Javascript server-side. NPM é o gerenciador de pacotes Node (como Composer/ PHP, Gem/ Ruby).
+NodeJS é uma plataforma (não uma linguagem) para desenvolvimento Javascript server-side. NPM é o gerenciador de pacotes Node (como Composer/PHP, Gem/Ruby).
 
 * **[Gulp](http://gulpjs.com)**:
 Automatizador de tarefas, executa tarefas definidas no gulpfile.js, como minificação e concatenação de arquivos, tarefas que se feitas de maneira manual, custam muito tempo ao desenvolvedor.
@@ -78,11 +78,11 @@ src
         main.scss
 ```
 
-* *dist*: diretório dos arquivos CSS compilados (minificados/ otimizados)
+* *dist*: diretório dos arquivos CSS compilados
 
-* *src*: diretório dos arquivos Sass separados pelo componente/ módulo
+* *src*: diretório dos arquivos Sass separados pelo componente e/ou módulo
 
-    * *module, module-2...*: diretório dos módulos/ componentes
+    * *module, module-2...*: diretório dos módulos e/ou componentes
 
         * separação dos arquivos do componente, utilizar a estrutura necessária para o componente.
             * **.scss*: arquivos Sass modulares do componente
@@ -101,7 +101,7 @@ gulpfile.js
 
 * *tasks*: diretório com de arquivos de tarefas para build de arquivos de determinado módulo.
 
-    * *theme.js*: Suite de tarefas relacionadas ao módulo/ componente theme.
+    * *theme.js*: Suite de tarefas relacionadas ao módulo/componente theme.
     * *default.js*: Suite de tarefas padrões do Gulp.
 
 * *.csscomb.json*: Arquivo de configuração para build de CSS, utilizado pelo módulo *gulp-csscomb*.
